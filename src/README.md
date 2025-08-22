@@ -8,7 +8,6 @@ tags:
 # Component: `glue-catalog-table`
 
 This component provisions Glue catalog tables.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -32,8 +31,8 @@ components:
           location: "s3://awsglue-datasets/examples/medicare/Medicare_Hospital_Provider.csv"
 ```
 
-<!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -112,12 +111,17 @@ components:
 | <a name="output_catalog_table_arn"></a> [catalog\_table\_arn](#output\_catalog\_table\_arn) | Catalog table ARN |
 | <a name="output_catalog_table_id"></a> [catalog\_table\_id](#output\_catalog\_table\_id) | Catalog table ID |
 | <a name="output_catalog_table_name"></a> [catalog\_table\_name](#output\_catalog\_table\_name) | Catalog table name |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/glue/catalog-table) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-glue-catalog-table&utm_content=)
+
